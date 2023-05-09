@@ -473,7 +473,7 @@
     align-items: stretch;
     padding-bottom: 118px;
     padding-left: 168px;
-    padding-right: 122px;
+    /*padding-right: 122px;*/
 }
 
 .selected__photo {
@@ -863,17 +863,6 @@
     margin-right: 18px;
 }
 
-/*@media screen and (max-width:1460px) {
-    .team__info, .team__members {
-        padding-left: 120px;
-        padding-right: 0;
-    }
-
-    .feedback__info, .section__form {
-        margin-left: 50px;
-    }
-}*/ 
-
 @media screen and (max-width:1286px) {
     .intro {
         flex-wrap: nowrap;
@@ -905,12 +894,50 @@
 
     .feedback__right-box {
         margin-top: 50px;
+        max-width: 100%;
     }
 
     .contacts__section {
-        max-width: 1250px;
-        width: 100%;
+        max-width: 100%;
         margin-left: 0;
+    }
+
+    .services {
+        margin-left: 20px;
+    }
+
+    .footer__social-media {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    .services__info, .services__options {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .subscribe__title {
+        line-height: 50px;
+    }
+
+    .products {
+        justify-content: space-evenly;
+    }
+
+    .services__options {
+        flex: auto;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .subscribe__button {
+        margin-top: 16px;
+    }
+
+    .products__link {
+        width: 100%;
+        align-items: center;
     }
 }
 
