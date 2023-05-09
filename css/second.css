@@ -863,6 +863,12 @@
     margin-right: 18px;
 }
 
+/*@media screen and (max-width:1409px) {
+    .feedback__right-box {
+        ;
+    }
+}*/
+
 @media screen and (max-width:1286px) {
     .intro {
         flex-wrap: nowrap;
