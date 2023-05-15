@@ -103,7 +103,7 @@
     display: none;
     height: 50px;
     z-index: 1;
-    background-image: url('./images/menu.svg');
+    background-image: url('./2 project/images/menu.svg');
     background-size: 100% 100%;
     background-color: #FFFFFF;
 }
@@ -321,19 +321,19 @@
 }
 
 .options__title_manage::before {
-    content: url('./logo/1.svg');
+    content: url('./2 project/logo/1.svg');
 }
 
 .options__title_design::before {
-    content: url('./logo/2.svg');
+    content: url('./2 project/logo/2.svg');
 }
 
 .options__title_branding::before {
-    content: url('./logo/3.svg');
+    content: url('./2 project/logo/3.svg');
 }
 
 .options__title_animation::before {
-    content: url('./logo/4.svg');
+    content: url('./2 project/logo/4.svg');
 }
 
 /*Feature Products*/
