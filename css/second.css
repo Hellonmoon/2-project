@@ -718,7 +718,6 @@
     max-width: 734px;
     width: 100%;
     margin-left: 62px;
-    margin-right: 106px;
     min-height: 486px;
 }
 
@@ -726,7 +725,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 20px;
 }
 
 .feedback__input {
@@ -1166,6 +1164,14 @@
 
     .red__button, .white__button {
         margin-left: 50px;
+    }
+
+    .intro__text {
+        max-width: 300px;
+    }
+
+    .intro__title {
+        font-size: 34px;
     }
 }
 
